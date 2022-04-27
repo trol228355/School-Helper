@@ -1,0 +1,262 @@
+h1 {
+    text-align: center;
+    border: 3px double orange;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #333B41;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333B41), color-stop(100%,#1d1f20));
+  background: -webkit-linear-gradient(top, #333B41 0%, #1d1f20 100%);
+  background:    -moz-linear-gradient(top, #333B41 0%, #1d1f20 100%);
+  background:     -ms-linear-gradient(top, #333B41 0%, #1d1f20 100%);
+  background:      -o-linear-gradient(top, #333B41 0%, #1d1f20 100%);
+  background:         linear-gradient(to bottom, #333B41 0%, #1d1f20 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333B41', endColorstr='#1d1f20', GradientType=0);
+  background-attachment: fixed;
+  color: white;
+}
+
+table { 
+  color : white;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  table-layout: fixed;
+  empty-cells: hide;
+}
+
+table th,
+table td {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-weight: normal;
+}
+
+table th {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: middle;
+  font-size: 12px;
+  opacity : 0.6;
+  border: 1px solid rgb(200, 200, 200, 0.05);
+}
+
+.puurple {
+  color : rgb(144, 31, 224);
+}
+
+.blue {
+  color : yellow;
+}
+
+.lightblue {
+  color : rgb(147,241,223);
+}
+
+.bluue {
+  color:blue;
+}
+
+.brown {
+  color : rgb(194,109,77);
+}
+
+.green {
+  color : rgb(111,109,77);
+}
+
+.red {
+  color : rgb(247,0,85);
+}
+
+.purple {
+    color: rgb(231, 147, 231);
+}
+
+.brick {
+  color: lightsalmon;
+}
+
+.white {
+  color: lightpink;
+}
+
+
+.chemical {
+  font-size:12px;
+  padding : 10px;
+  text-align: right;
+  border: 1px solid rgb(200, 200, 200, 0.05);
+}
+
+.chemical span {
+  font-size:12px;
+  width: 100%;
+  display: block;
+  line-height: 1em;
+  opacity : 0.5;
+}
+
+.chemical .number {
+  text-align: right;
+  line-height: 0.7em;
+}
+
+.chemical .symbol {
+  font-weight: 600;
+  font-size:2.17em;
+  opacity : 1;
+  width: 90%;
+}
+
+.chemical .name {
+  padding-top:5px;
+}
+
+.chemical .mass {
+  padding-top:5px;
+}
+
+nav {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    font-family: cursive;
+    background-color: mediumseagreen;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: lightslategray;
+    padding: 20px;
+}
+
+footer p {
+    font-family: georgia;
+    background-color: gray;
+    padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.red:visited {
+  color : rgb(247,0,85);
+}
+
+.lightblue:visited {
+  color : rgb(147,241,223);
+}
+
+.blue:visited {
+  color: yellow;
+}
+
+.green:visited {
+  color : rgb(111,109,77);
+}
+
+.brown:visited {
+  color : rgb(194,109,77);
+}
+
+.white:visited {
+  color : pink;
+}
+
+.puurple:visited {
+  color: rgb(144, 31, 224);
+}
+
+.brick:visited {
+  color: brown;
+}
+
+.bluue:visited {
+  color:blue;
+}
+
+purple:visited {
+  color: rgb(231, 147, 231);
+}
+
+div:hover {
+  font-size: 30px;
+  box-shadow: 10px 10px 10px 5px rgb(75, 73, 73);
+}
+
+.mff {
+  color : white;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  table-layout: fixed;
+  empty-cells: hide;
+}
+
+.mff td {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: middle;
+  font-size: 20px;
+  opacity : 0.6;
+  border: 1px solid rgb(200, 200, 200, 0.05);
+  font-weight: normal;
+}
+
+.tab_3 {
+  color : white;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  table-layout: fixed;
+  empty-cells: hide;
+}
+
+.tab_3 td {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: middle;
+  font-size: 20px;
+  opacity : 0.6;
+  border: 1px solid rgb(200, 200, 200, 0.05);
+  font-weight: normal;
+}
+
+
+
+.mff tr:hover {
+  font-size: 30px;
+  box-shadow: 2px 2px 5px 0 rgb(75, 73, 73);
+}
+
+.tab_3 tr:hover {
+  font-size: 40px;
+  box-shadow: 2px 2px 5px 0 rgb(75, 73, 73);
+}
+
+.vvv {
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
